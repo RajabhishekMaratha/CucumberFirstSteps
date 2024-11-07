@@ -12,6 +12,7 @@ public class LandingPage {
 	By productName = By.cssSelector("h4.product-name");
 	By topDeals = By.linkText("Top Deals");
 	
+	
 	public void searchItem(String shortName) {
 		driver.findElement(By.xpath("//input[@type='search']")).sendKeys(shortName);
 	}
@@ -23,6 +24,11 @@ public class LandingPage {
 	public void selectTopDeals() {
 		driver.findElement(topDeals).click();
 	}
+	
+	public String getTitle() {
+		return driver.getTitle();
+	}
+	
 	
 	
 }

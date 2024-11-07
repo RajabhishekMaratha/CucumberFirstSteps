@@ -9,6 +9,7 @@ import pageObjects.PageObjectManager;
 public class TestContextSetup {
 	public WebDriver driver;
 	public String landingPagePname;
+	public String checkoutPagePname;
 	public PageObjectManager pageObjectManager;
 	public TestBase testBase;
 	public GenericUtils genericUtils;

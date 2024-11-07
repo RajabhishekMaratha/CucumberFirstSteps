@@ -23,7 +23,7 @@ public class OfferPageStepDefination {
 		this.testContextSetup = testContextSetup;
 		
 	}
-	@Then("User search the {string} shortname in Ofers page and check if product exists.")
+	@Then("^User search the (.+) shortname in Ofers page and check if product exists.$")
 	public void user_search_the_same_shortname_in_ofers_page_and_check_if_product_exists(String shortName) throws InterruptedException {
 	    // Write code here that turns the phrase above into concrete actions
 		switchToOffersPage();
