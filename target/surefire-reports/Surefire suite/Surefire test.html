@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Surefire test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 07 22:52:21 IST 2024</td>
+<td>Started on:</td><td>Thu Nov 07 12:25:05 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>20 seconds (20927 ms)</td>
+<tr><td>Total time:</td><td>70 seconds (70417 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,6 +77,10 @@ function toggleAllBoxes() {
 <tr>
 <td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search experience for product search in both home and Offers page", "Optional[Search and place order for Products]"</td>
 <td><div><pre>java.lang.AssertionError: expected [No] but found [Beetroot]
+	at stepDefinations.OfferPageStepDefination.validate_Product_name_in_offers_page(OfferPageStepDefination.java:45)
+	at ?.validate Product name in offers page.(file:///C:/Users/2320611/eclipse-workspace/Selenium%20Rahul/CucumberFirstSteps/src/test/java/features/searchProduct.feature:9)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1274411495", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274411495'><pre>java.lang.AssertionError: expected [No] but found [Beetroot]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
@@ -84,20 +88,10 @@ function toggleAllBoxes() {
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
 	at stepDefinations.OfferPageStepDefination.validate_Product_name_in_offers_page(OfferPageStepDefination.java:45)
-	at ✽.validate Product name in offers page.(file:///C:/Users/2320611/eclipse-workspace/Selenium%20Rahul/CucumberFirstSteps/src/test/java/features/searchProduct.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace891573194", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace891573194'><pre>java.lang.AssertionError: expected [No] but found [Beetroot]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at stepDefinations.OfferPageStepDefination.validate_Product_name_in_offers_page(OfferPageStepDefination.java:45)
-	at ✽.validate Product name in offers page.(file:///C:/Users/2320611/eclipse-workspace/Selenium%20Rahul/CucumberFirstSteps/src/test/java/features/searchProduct.feature:9)
+	at ?.validate Product name in offers page.(file:///C:/Users/2320611/eclipse-workspace/Selenium%20Rahul/CucumberFirstSteps/src/test/java/features/searchProduct.feature:9)
 </pre></div></td>
-<td>20</td>
-<td>cucumberOptions.TestNGTestRunner@43195e57</td></tr>
+<td>38</td>
+<td>cucumberOptions.TestNGTestRunner@53ca01a2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -109,13 +103,13 @@ function toggleAllBoxes() {
 <tr>
 <td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search experience for product search in both home and Offers page", "Optional[Search and place order for Products]"</td>
 <td></td>
-<td>17</td>
-<td>cucumberOptions.TestNGTestRunner@43195e57</td></tr>
+<td>69</td>
+<td>cucumberOptions.TestNGTestRunner@53ca01a2</td></tr>
 <tr>
 <td title='cucumberOptions.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberOptions.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search experience for product and proceeding to checkout", "Optional[Place order for Products and Checkout]"</td>
 <td></td>
-<td>20</td>
-<td>cucumberOptions.TestNGTestRunner@43195e57</td></tr>
+<td>39</td>
+<td>cucumberOptions.TestNGTestRunner@53ca01a2</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,6 +1,6 @@
 Feature: Search and place order for Products
 
-
+@OffersPage
 Scenario Outline: Search experience for product search in both home and Offers page
 
 Given User is in GreenCart Landing page
@@ -11,3 +11,4 @@ And validate Product name in offers page.
 Examples:
 | Name |
 | Tom  |
+| Beet  |

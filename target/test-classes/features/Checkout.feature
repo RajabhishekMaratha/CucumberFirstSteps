@@ -1,6 +1,6 @@
 Feature: Place order for Products and Checkout
 
-
+@PlaceOrder
 Scenario: Search experience for product and proceeding to checkout
 
 Given User is in GreenCart Landing page
